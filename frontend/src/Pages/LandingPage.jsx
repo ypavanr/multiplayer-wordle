@@ -159,7 +159,7 @@ const MenuScreen = ({ username, onLogout }) => {
                 onChange={(e) => setRoomCode(e.target.value)}
                 placeholder="Enter Room Code"
                 maxLength={6}
-                className="text-center uppercase tracking-widest text-lg p-3 rounded-lg text-black"
+                className="text-center uppercase tracking-widest text-lg p-3 rounded-lg text-white"
               />
               <button
                 type="submit"
