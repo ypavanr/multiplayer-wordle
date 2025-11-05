@@ -11,7 +11,7 @@ env.config()
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 app.use(cors({
-  origin: ['http://localhost:5173'],
+  origin: ['http://localhost:5173','https://multiplayer-wordle-lake.vercel.app'],
   credentials: true
 }));
 
