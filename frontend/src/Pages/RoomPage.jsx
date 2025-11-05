@@ -284,7 +284,7 @@ export default function RoomPage() {
                     }
                     maxLength={5}
                     placeholder="Enter guess"
-                    className="flex-1 text-center uppercase tracking-widest text-lg p-3 rounded-lg text-black"
+                    className="flex-1 text-center uppercase tracking-widest text-lg p-3 rounded-lg text-white"
                   />
                   <button
                     onClick={handleGuessSubmit}
